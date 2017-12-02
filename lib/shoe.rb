@@ -9,7 +9,7 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good a new!"
-    @brand.condition = 'new'
+    this.condition = 'new'
   end
 
 end
